@@ -21,9 +21,6 @@ namespace RoboTupiniquim.ConsoleApp
         {
             const string sair = "S";
             string resposta = "";
-
-
-
             while (resposta.ToUpper() != sair)
             {
                 PegaTamanhoDoMapa();
@@ -34,8 +31,6 @@ namespace RoboTupiniquim.ConsoleApp
                     continue;
                 }
                 PegaCoordenadasDoUsuario();
-
-
                 PegaAsPosicoes2();
                 if (Erros(PosicaoX2, PosicaoY2) == true)
                 {
